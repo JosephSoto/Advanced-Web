@@ -89,13 +89,13 @@ ul li{
 }
 
 .bg-1{
-  background: url("http://placekitten.com/900/500");
+  background-color:#3db679;
   background-position: 32% 100%;
   background-size: cover;
 }
 
 .bg-2{
-  background: url("http://placebear.com/g/900/500");
+  background-color:#f37736;
   background-size: cover;
   background-position: 40% 30%;
 }
