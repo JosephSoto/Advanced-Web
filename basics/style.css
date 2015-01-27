@@ -117,13 +117,14 @@ ul li .subcontent{
   position: absolute;
   top: 100px;
   color: white;
-  font-family: helvetica;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h1{
   font-size: 100px;
   margin-bottom: 0;
-
+  font-weight: 300;
+  
 }
 
 h2{
