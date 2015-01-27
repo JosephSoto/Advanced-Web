@@ -80,7 +80,7 @@ ul{
 ul li{
   list-style: none;
   overflow: hidden;
-  height: 500px;
+  height: 400px;
   position: relative;
 }
 
@@ -95,22 +95,18 @@ ul li{
 }
 
 .bg-2{
-  background-color:#f37736;
+  background-color:#ae5a41;
+  background-position: 32% 100%;
   background-size: cover;
-  background-position: 40% 30%;
 }
 
 .bg-3{
-  background: url("http://placekitten.com/900/500");
-  background-position: 33% 190%;
+  background: url("cold.jpg");
+  background-position: 100%;
   background-size: cover;
 }
 
-.bg-4{
-  background: url("http://placebear.com/g/900/500");
-  background-position: 46% 48%;
-  background-size: cover;
-}
+
 
 
 ul li .subcontent{
@@ -130,9 +126,36 @@ h1{
 h2{
   font-size: 30px;
   margin-top: 0px;
+  font-weight: 300;
+  line-height:1.5em;
+  padding-left:10px;
 }
 
 
+a: hover {text-decoration:none;
+	
+	}	
+	 
+	 
+ a {text-decoration:none;
+	 	color:white;
 
+	 }
+
+
+a:link {color:white;
+	 
+	 }
+	
+	
+a:hover {color:#ffffff;
+	     border-bottom: 15px solid white;
+	  
+	 }
+	 
+	 
+a:active {color:white;
+	  
+	 }		 
 
 
