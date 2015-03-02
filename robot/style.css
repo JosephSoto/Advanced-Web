@@ -1,0 +1,376 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET */
+body {
+    background-color: #fce17e;
+}
+
+
+@-webkit-keyframes popSpin {
+   0%   { -webkit-transform: rotate(360deg); }
+   100% { -webkit-transform: rotate(2turn); }
+}
+
+
+
+
+
+
+
+#head {
+	width: 400px;
+	height: 280px;
+  background: url("head.png");
+	-moz-border-radius: 200px / 140px;
+	-webkit-border-radius: 200px / 140px;
+	border-radius: 200px / 140px;
+    Position:relative;
+    left:450px;
+    top:150px;
+	
+}
+
+
+
+
+#eye1 {
+	width: 30px;
+	height: 50px;
+	background: black;
+	-moz-border-radius: 15px / 25px;
+	-webkit-border-radius: 15px / 25px;
+	border-radius: 15px / 25px;
+    Position:absolute;
+    left:80px;
+    top:140px;
+		
+}
+
+
+#eye2 {
+	width: 30px;
+	height: 50px;
+	background: black;
+	-moz-border-radius: 15px / 25px;
+	-webkit-border-radius: 15px / 25px;
+	border-radius: 15px / 25px;
+    Position:absolute;
+    right:80px;
+    top:140px;
+	
+}
+
+
+#nose {
+	width: 40px;
+	height: 20px;
+	background: #f2b011;
+	-moz-border-radius: 20px / 10px;
+	-webkit-border-radius: 20px / 10px;
+	border-radius: 20px / 10px;
+    Position:absolute;
+    left:180px;
+    top:207px;
+	
+}
+
+
+
+#bowCenter {
+  background: url("pop.png");
+	width: 100px;
+	height: 100px;
+    Position:absolute;
+    right:40px;
+    top:-20px;
+	
+}
+
+
+#bowLeft {
+	width: 140px;
+	height: 100px;
+	background: #ae323b;
+	-moz-border-radius: 70px / 50px;
+	-webkit-border-radius: 70px / 50px;
+	border-radius: 70px / 50px;
+    Position:absolute;
+    right:80px;
+    top:-40px;
+	-webkit-transform: rotate(20deg);
+	
+}
+
+
+#bowRight {
+	width: 140px;
+	height: 100px;
+	background: #ae323b;
+	-moz-border-radius: 70px / 50px;
+	-webkit-border-radius: 70px / 50px;
+	border-radius: 70px / 50px;
+    Position:absolute;
+    right:-30px;
+    top:-20px;
+	-webkit-transform: rotate(165deg);
+	
+}
+
+
+
+.bowCenter{
+    background: url("pop.png");
+  	width: 100px;
+  	height: 100px;
+	-webkit-animation: popSpin 1s linear infinite normal;
+}
+
+#ear1 {
+	width: 80px;
+	height: 80px;
+	background: url("ear.png");
+	Position:absolute;
+    left:23px;
+    top:-2px;
+	
+}
+
+
+
+#midSection {
+	width: 141px;
+	height: 138px;
+	background: url("body.png");
+    Position:relative;
+    left:575px;
+    top:155px;
+	
+}
+
+#legLeft {
+	width: 70px;
+	height: 90px;
+	background: url("legLeft.png");
+	Position:absolute;
+    left:-10px;
+    top:105px;
+	
+}
+
+
+#legRight {
+	width: 70px;
+	height: 90px;
+	background: url("legRight.png");
+	Position:absolute;
+    right:-10px;
+    top:105px;
+	
+}
+
+#shoulderLeft {
+	width: 41px;
+	height: 49px;
+	background: url("shoulderLeft.png");
+    Position:relative;
+    left:-45px;
+    top:0px;
+	transform-origin:0% 50%;
+	
+}
+
+#armLeft {
+	width: 35px;
+	height: 49px;
+	background: url("armLeft.png");
+    Position:absolute;
+    left:-38px;
+    top:0px;
+	transform-origin:0% 50%;
+	
+}
+
+#handLeft {
+	width: 33px;
+	height: 49px;
+	background: url("handLeft.png");
+    Position:absolute;
+    left:-73px;
+    top:0px;
+	transform-origin:0% 50%;
+	
+}
+
+
+#shoulderRight {
+	width: 41px;
+	height: 49px;
+	background: url("shoulderRight.png");
+    Position:relative;
+    right:-145px;
+    top:-45px;
+	-webkit-transform: rotate(60deg);
+	
+}
+
+#armRight {
+	width: 35px;
+	height: 49px;
+	background: url("armRight.png");
+    Position:absolute;
+    right:-38px;
+    top:0px;
+	
+}
+
+#handRight {
+	width: 33px;
+	height: 49px;
+	background: url("handRight.png");
+    Position:absolute;
+    Right:-73px;
+    top:0px;
+	
+}
+
+
+
+#shoulderLeft:hover {
+  transform: rotate(70deg);
+  transition: 2s ease;
+}
+
+#shoulderLeft:hover #armLeft {
+  transform: rotate(10deg) translateX(-10px);;
+    transition: 2s ease;
+}
+
+#shoulderLeft:hover #handLeft {
+  transform: rotate(20deg) translateX(-40px);
+  transition: 2s ease;
+}
+
+#shoulderRight:hover {
+  transform: rotate(70deg);
+  transition: 2s ease;
+}
+
+#shoulderRight:hover #armRight {
+  transform: translateX(20px);
+    transition: 2s ease;
+}
+
+#shoulderRight:hover #handRight {
+  transform: translateX(120px);
+  transition: 1.5s ease;
+}
+
+
+
+
+
+
+#legRight:hover #legRight {
+  transform: translateX(20px);
+    transition: 2s ease;
+}
+
+#legLeft:hover #legLeft {
+  transform: translateX(40px);
+  transition: 2s ease ;
+}
+
+
+
+@-webkit-keyframes legLeft {
+   0% { -webkit-transform: translate(0,0); }
+   50%  { -webkit-transform: translate(7px,30px); }
+   100% {  -webkit-transform: translate(50px, ); }
+}
+
+#legLeft {
+  -webkit-animation: legLeft 1s ease 1s 100 alternate;
+}
+
+
+@-webkit-keyframes legRight {
+   0% { -webkit-transform: translate(0,0); }
+   70%  { -webkit-transform: translate(-7px,30px); }
+   100% {  -webkit-transform: translate(50px, ); }
+}
+
+#legRight {
+  -webkit-animation: legRight 1s ease 1s 100 alternate;
+}
+
+
+
+#background{
+  background: url("background.png");
+  height: 750px;
+  width: 100%;
+  -webkit-animation:background-move 10s linear infinite;
+  position:relative;
+
+}
+
+@-webkit-keyframes background-move {
+  0% { background-position: 0px; };
+  100% { background-position: 6000px; };
+}
+
+
+#head:hover {
+  transform: rotate(10deg);
+  transition: 2s ease;
+}
+

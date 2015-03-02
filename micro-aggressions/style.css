@@ -66,65 +66,85 @@ table {
 
 
 /*CSS*/
-* {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-.top {
-  background-color: tomato;
-  padding:150px; 
-  opacity:1;
-  font-family: Sans-serif;
-  color:white;
-  text-align:center;
-  font-size:4em;
-  text-shadow: 2px 2px 0px #d64215;
-  width:100%;
-  -webkit-transition: 1s ease-out ;
-  position:fixed;
-  top:0;
-}
-.top {
-	-webkit-animation: content-move 1s ease-in;
-}
-@-webkit-keyframes content-move {
-  0% { -webkit-transform: translateY(-300px); }
-  5% { opacity: 0 }
-  50% { opacity:.5; }
-  100% { opacity:1; }
+
+
+body{
+  margin: 0 auto;
 }
 
-.middle {
-  background-color: lightblue;
-  padding: 50px 300px 400px 50px;
-  font-family: Sans-serif;
-  color:white;
-  text-align: center;
-  font-size:2em;
-  text-shadow: 1px 1px 0px #73b1c4;
-  width:100%;
-  position:absolute;
-  top:500px;
-}
-.bottom {
-  background-color: #5a96a8;
-  padding: 50px 300px 400px 50px;
-  font-family: Sans-serif;
-  color:white;
-  text-align: center;
-  font-size:2em;
-  text-shadow: 1px 1px 0px #73b1c4;
-  width:100%;
-  position:absolute;
-  top:1000px;
-}
-.middle {
-	-webkit-animation: content-move2 1s ease-in;
-}
-@-webkit-keyframes content-move2 {
-  0% { -webkit-transform: translateY(-300px); }
+#wrap{
+  background-image: url('https://s3.amazonaws.com/ooomf-com-files/7erBZvZMQ2mmuFQ10vcA_IMGP4512.jpg');
+  background-size: cover;
+  height: 1000px;
+
 }
 
+#nav{
+  float: left;
+  margin: 0;
+  color: #FFF;
+  font-family: helvetica, arial;
+  font-weight: light;
+  width: 58px;
+  position: fixed;
+  top: -16px;
+  overflow: hidden;
+  -webkit-transition: width .3s ease-in-out;
+  -moz-transition: width .3s ease-in-out;
+  -o-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+
+}
+
+#nav-content{
+  background-color: #e31b23;
+  padding: 0;
+  height: 1000px;
+
+}
+
+#nav li{
+  list-style: none;
+  background-color: #e31b23;
+  width: 400px;
+  height: 56px;
+  position: relative;
+  right: 40px;
+  border-bottom: 1px solid #c11f2b;
+}
+
+#nav li:hover{
+  background-color: #c11f2b;
+  
+}
+
+#nav:hover{
+  width: 300px;
+  cursor: pointer;
+
+}
+
+#icon{
+  padding: 20px;
+  width: 18px;
+  background-color: none;
+}
+
+.text{
+  margin-left: 20px;
+}
+
+#huge{
+  text-align: center;
+  padding-top: 10%;
+}
+
+p1{
+  color: #FFF;
+  font-size: 8em;
+  font-family: helvetica, arial;
+  font-weight: bold;
+ 
+}
 
 
