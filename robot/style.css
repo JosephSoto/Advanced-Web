@@ -51,8 +51,15 @@ table {
 
 /* END RESET */
 body {
-    background-color: #fce17e;
+    background: url("background.png");
+    height: 750px;
+    width: 100%;
+    -webkit-animation:background-move 10s linear infinite;
+    position:relative;
+
 }
+
+
 
 
 @-webkit-keyframes popSpin {
@@ -354,14 +361,7 @@ body {
 
 
 
-#background{
-  background: url("background.png");
-  height: 750px;
-  width: 100%;
-  -webkit-animation:background-move 10s linear infinite;
-  position:relative;
 
-}
 
 @-webkit-keyframes background-move {
   0% { background-position: 0px; };
