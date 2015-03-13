@@ -67,84 +67,8 @@ table {
 
 /*CSS*/
 
-
-body{
-  margin: 0 auto;
-}
-
-#wrap{
-  background-image: url('https://s3.amazonaws.com/ooomf-com-files/7erBZvZMQ2mmuFQ10vcA_IMGP4512.jpg');
-  background-size: cover;
-  height: 1000px;
-
-}
-
-#nav{
-  float: left;
-  margin: 0;
-  color: #FFF;
-  font-family: helvetica, arial;
-  font-weight: light;
-  width: 58px;
-  position: fixed;
-  top: -16px;
-  overflow: hidden;
-  -webkit-transition: width .3s ease-in-out;
-  -moz-transition: width .3s ease-in-out;
-  -o-transition: width .3s ease-in-out;
-  transition: width .3s ease-in-out;
-
-}
-
-#nav-content{
-  background-color: #e31b23;
-  padding: 0;
-  height: 1000px;
-
-}
-
-#nav li{
-  list-style: none;
-  background-color: #e31b23;
-  width: 400px;
-  height: 56px;
-  position: relative;
-  right: 40px;
-  border-bottom: 1px solid #c11f2b;
-}
-
-#nav li:hover{
-  background-color: #c11f2b;
-  
-}
-
-#nav:hover{
-  width: 300px;
-  cursor: pointer;
-
-}
-
-#icon{
-  padding: 20px;
-  width: 18px;
-  background-color: none;
-}
-
-.text{
-  margin-left: 20px;
-}
-
-#huge{
-  text-align: center;
-  padding-top: 10%;
-}
-
-p1{
-  color: #FFF;
-  font-size: 8em;
-  font-family: helvetica, arial;
-  font-weight: bold;
- 
+body {
+    background-color: #f1c40f;
 }
 
 
