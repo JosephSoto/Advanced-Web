@@ -1,0 +1,74 @@
+body, html { padding:0px; margin:0px; }
+
+
+.buttons button {
+  font-size: 24px;
+  padding:5px;
+  border:1px solid #999;
+  background-color:white;
+}
+
+.buttons button.selected {
+  background-color:gray;
+}
+
+.buttons {
+	position:absolute;
+	z-index:2;
+	
+}
+
+
+#button-red {
+	background-color:red;
+}
+
+#button-orange {
+	background-color:orange;
+}
+
+#button-yellow {
+	background-color:yellow;
+}
+
+#button-green {
+	background-color:green;
+}
+
+#button-blue {
+	background-color:blue;
+}
+
+#button-purple {
+	background-color:purple;
+}
+
+#button-pink {
+	background-color:pink;
+}
+
+#button-brown {
+	background-color:brown;
+}
+
+#button-grey {
+	background-color:gray;
+}
+
+#button-black {
+	background-color:black;
+}
+
+
+
+#button-small {
+	width:5%;
+}
+
+#button-medium {
+	width:8%;
+}
+
+#button-large {
+	width:11%;
+}
