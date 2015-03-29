@@ -1,0 +1,365 @@
+
+  div {padding-bottom:60px;}
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {padding-top:100px;
+	max-width:700px;
+    margin:0 auto;
+    text-align:left;}
+	
+p {font-size:12px;
+	line-height:1.5em;
+	font-family:courier;}
+h1 {font-size:12px;
+	font-family:courier;
+	font-weight:bold;
+	line-height:3em;}	
+em {font-weight:bold;}	
+
+ol {font-size:12px;
+	font-family:courier;
+	line-height:1.5em;
+}
+a: hover{text-decoration:none;
+}	
+a {text-decoration:none;}
+
+a:link {
+      color:#ccc;
+  }
+  a:hover {
+      color: white;
+  }
+  a:active {
+      color:#ccc;
+  }
+
+  
+  hr { display: block; height: 1px;
+      border: 0; border-top: 2px solid #ccc;
+      margin: 1em 0; padding: 0; }
+	  
+#one {float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Linden Hill', serif;
+text-align:center;}
+
+#two {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Linden Hill', serif;
+line-height:1.4em;
+}
+
+#three {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Goudy Bookletter 1911', serif;
+text-align:center;}
+
+#four {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Goudy Bookletter 1911', serif;
+line-height:1.4em;}
+
+#five {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Gentium Book Basic', serif;
+text-align:center;}
+
+#six {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Gentium Book Basic', serif;
+line-height:1.4em;}
+
+#seven {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Donegal One', serif;
+text-align:center;}
+
+#eight {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Donegal One', serif;
+line-height:1.4em;}
+
+#nine {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Bentham', serif;
+text-align:center;}
+
+#ten {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Bentham', serif;
+line-height:1.4em;}
+
+#eleven{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Amethysta', serif;
+text-align:center;}
+
+#twelve {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Amethysta', serif;
+line-height:1.4em;}
+
+#thirteen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Della Respira', serif;
+text-align:center;}
+
+#fourteen {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Della Respira', serif;
+line-height:1.4em;}
+
+#fifteen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Brawler', serif;
+text-align:center;}
+
+#sixteen {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Brawler', serif;
+line-height:1.4em;}
+
+
+#seventeen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Inconsolata', ;
+text-align:center;}
+
+#eighteen {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Inconsolata', ;
+line-height:1.4em;}
+
+#nineteen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Hammersmith One', sans-serif;
+text-align:center;}
+
+#twenty {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Hammersmith One', sans-serif;
+line-height:1.4em;}
+
+#twentyone{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Ek Mukta', sans-serif;
+text-align:center;}
+
+#twentytwo {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Ek Mukta', sans-serif;
+line-height:1.4em;}
+
+
+#twentythree{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Istok Web', sans-serif;
+text-align:center;}
+
+#twentyfour {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Istok Web', sans-serif;
+line-height:1.4em;}
+
+#twentyfive{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Average Sans', sans-serif;
+text-align:center;}
+
+#twentysix {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Average Sans', sans-serif;
+line-height:1.4em;}
+
+#twentyseven{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Droid Sans', sans-serif;
+text-align:center;}
+
+#twentyeight {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Droid Sans', sans-serif;
+line-height:1.4em;
+
+}
+
+.Social {
+	height:200px;
+	clear:both;}
+	
+	
+
+		
+		
+#landing{
+		clear:both;
+		float:left;
+		width:29%;
+		margin-bottom:30px;
+		text-align:left;}	
+		
+		
+#about{
+
+		float:right;
+		width:40%;
+		margin-bottom:30px;
+		text-align:left;
+}		
+			
+
+
+
+		.Platforms {
+				height:200px;
+				clear:both;}	
+
+
+
+
+	  

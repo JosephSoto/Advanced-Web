@@ -1,0 +1,67 @@
+body, html { padding:0px; margin:0px; }
+
+
+
+
+
+.main1 {
+	background-color:red;
+	width:980px;
+	height:440px;
+    Position:relative;
+    left:250px;
+    top:150px;
+}
+
+
+
+
+.box1 {
+	background-color:yellow;
+	width:300px;
+	height:400px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+    Position:absolute;	
+}
+
+.box2 {
+	background-color:green;
+	left:320px;
+	width:300px;
+	height:400px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+    Position:absolute;
+		
+}
+
+
+.box3 {
+	background-color:blue;
+	left:640px;
+	width:300px;
+	height:400px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+    Position:absolute;
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
