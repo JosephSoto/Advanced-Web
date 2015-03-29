@@ -1,9 +1,21 @@
+/*CONTAINER*/
+var div = document.createElement("div");
+div.style.width = "950px";
+div.style.height = "400px";
+div.style.background = "blue";
+div.style.color = "black";
+div.innerHTML = "Content goes here";
 
-/*IMAGE ONE*/
+document.body.appendChild(div);
+
+
+
+
+/*INSTAGRAM CONTENT*/
 function addImage(image, likes, link, comment) {
 
 
-var $list = $("div.box1");
+var $list = $("ul.people-list");
 var $li = $("<li>");
 
 var $image = $("<img>").attr("src",image);
@@ -21,39 +33,9 @@ $list.append($li);
 }
 
 addImage("http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11055772_1558157594448054_879696703_n.jpg", "720", "https://instagram.com/p/0lOFZ0g8gA/", "منشن الي تبيه يشوف المقطع");
-
-
-
-
-/*IMAGE TWO*/
-function addImage(image, likes, link, comment) {
-
-
-var $list = $("div.box2");
-var $li = $("<li>");
-
-var $image = $("<img>").attr("src",image);
-var $likes = $("<h4>").text(likes);
-var $link = $("<h5>").text(link);
-var $comment = $("<h6>").text(comment);
-
-
-
-$li.append($image).append($likes).append($link).append($comment);
-
-$list.append($li); 
-  
-  
-}
-
 addImage("http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11055442_1387234548264057_209258360_n.jpg", "432", "https://instagram.com/p/0lS-LWTbw9/", "RCF x VFS2 - pic via @kdot_vossen #FreeBuju #Vossen #CarsWithoutLimits");
-
-
-
-
-
-
-
+addImage("http://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/10919675_944043618953681_1961747465_n.jpg","543", "https://instagram.com/p/0lTX-pqkcC/", "Сегодня была на прекрасном мероприятии #soundkids");
+addImage("http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11055616_1568588500090432_546823562_n.jpg","344", "https://instagram.com/p/0lNgG4st5V/", "Are your tubes in good shape?");
 
 
 
