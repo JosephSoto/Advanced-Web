@@ -1,12 +1,5 @@
 /*CONTAINER*/
-var div = document.createElement("div");
-div.style.width = "950px";
-div.style.height = "400px";
-div.style.background = "blue";
-div.style.color = "black";
-div.innerHTML = "Content goes here";
 
-document.body.appendChild(div);
 
 
 
@@ -30,6 +23,12 @@ $li.append($image).append($likes).append($link).append($comment);
 $list.append($li); 
   
   
+  
+  
+
+  
+  
+  
 }
 
 addImage("http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11055772_1558157594448054_879696703_n.jpg", "720", "https://instagram.com/p/0lOFZ0g8gA/", "منشن الي تبيه يشوف المقطع");
@@ -40,9 +39,10 @@ addImage("http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15
 
 
 
+var $container = $(".instagram");
+var $picture = $("<div>");
 
-
-
+var $heading1 =$("<h2>")
 
 
 
