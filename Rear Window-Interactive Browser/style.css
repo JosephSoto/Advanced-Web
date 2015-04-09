@@ -81,13 +81,13 @@ body {
 #nav-title {
   			font-size:250%;
   			font-family: 'Roboto', sans-serif;
-  			font-weight: 900;
+  			font-weight: 400;
 			text-transform: uppercase;
 			letter-spacing: .25em;
 			color:white;
 			float:left;
 			margin-left:3em;
-			margin-top:1.4em;
+			margin-top:1.75em;
 			
 }
 
@@ -112,53 +112,61 @@ body {
 			float:right;
 		  	font-size:70%;
 		  	font-family: 'Roboto', sans-serif;
-		  	font-weight: 300;
+		  	font-weight: 400;
 			text-transform: uppercase;
 			letter-spacing: .25em;
 			color:white;
 }
 
+
+#top-nav li:hover {
+			background-color:red;
+}
+
+
 #nav-margin {
 			position:relative;
-			right:10em;}		 
+			right:10em;
+}		 
 		 
 
 
 
-.navigation a: hover {text-decoration:none;
+.navigation a: hover {
+			text-decoration:none;
 	
-			}	
+}	
 
 
 	 
 	 
 .navigation a {
 
-						text-decoration:none;
-						color:white;
+			text-decoration:none;
+			color:white;
 		
 		
-			}
+}
 
 
 .navigation a:link {
-						color:white;
+			color:white;
 	 
-			}
+}
 	
 	
 	
 .navigation a:hover {
-						color:red;
-						background-color:none;
+			color:white;
+			background-color:red;
 	  
-			}
+}
 	 
 	 
 .navigation a:active {
-						color:white;
+			color:white;
 	  
-			}			 
+}			 
 			
 			
 
@@ -175,8 +183,6 @@ body {
 
 
 
-
-
 .page1 {
 			background-image: url("images/lisa.gif");
 			background-repeat: no-repeat;
@@ -186,7 +192,7 @@ body {
 
 
 .page2 {
-			background-color:blue;
+			background-color:black;
 }
 
 
@@ -256,7 +262,7 @@ div#detail {
 
 
 #suspect-name {
-				text-transform: uppercase;
+			text-transform: uppercase;
 			font-size:140%;
   			font-family: 'Roboto Slab', serif;
   			font-weight: 700;
@@ -295,9 +301,15 @@ div#detail {
 }
 
 
+#suspect-button:hover {
+	background-color:red;
+	color:white;
+	
+	
+}
 
-
-a: hover {text-decoration:none;
+a: hover {
+			text-decoration:none;
 	
 }	
 
@@ -323,6 +335,7 @@ a:link {
 a:hover {
 			color:white;
 			background-color:none;
+			font-weight: 400;
 	  
 }
 	 
@@ -335,5 +348,175 @@ a:active {
 
 
 div ::-webkit-scrollbar { 
-    display: none; 
+    		display: none; 
+}
+
+
+
+/*FRAME 2*/
+
+
+div#control-panel {
+	
+			color:white;
+			width:250px;
+			border:5px solid white;
+			background-color:none;
+			top:7%;
+			left:5%;
+			padding-top:4%;
+			padding-bottom:4%;
+			padding-left:4%;
+			padding-right:4%;
+			line-height: 110%;
+			position:absolute;
+			float:left;
+			clear:both;
+			
+
+}
+
+
+div#video-icons {
+	
+			color:white;
+			width:50px;
+			border:5px solid white;
+			background-color:white;
+			top:7%;
+			left:29%;
+			line-height: 110%;
+			position:relative;
+			float:left;
+			clear:both;
+		    margin-left: auto;
+		    margin-right: auto;
+			
+}
+
+
+
+
+#weather {
+			padding-left:3%;
+			padding-right:3%;
+		    margin-left: auto;
+		    margin-right: auto;
+			
+}
+
+
+
+#icon1 {
+			margin-left:10px;
+			padding-top:10px;
+			padding-bottom:10px;
+
+}
+
+
+#icon2 {
+			margin-left:5px;
+			padding-top:10px;
+			padding-bottom:10px;
+}
+
+
+#icon3 {
+			margin-left:10px;
+			padding-top:10px;
+			padding-bottom:10px;
+}
+
+
+
+#icon1 {
+			margin-left:10px;
+			padding-top:10px;
+			padding-bottom:10px;
+
+}
+
+#icon1:hover {
+	
+			background-color:red;			
+
+}
+
+#icon2:hover {
+	
+			background-color:red;			
+
+}
+
+#icon3:hover {
+	
+			background-color:red;			
+
+}
+
+div#display-screen {
+	
+			color:white;
+			width:650px;
+			height:500px;
+			border:5px solid white;
+			background-color:none;
+			top:7%;
+			right:10%;
+			padding-top:4%;
+			padding-bottom:4%;
+			padding-left:4%;
+			padding-right:4%;
+			line-height: 110%;
+			position:absolute;
+			float:right;
+			clear:both;
+			
+
+}
+
+
+
+
+div#weather {
+	text-align:center;
+			font-size:150%;
+			font-family: 'Roboto Slab', serif;
+			font-weight: 700;
+			color:black;
+			width:auto;
+			height:auto;
+			border:5px solid white;
+			background-color:white;
+			top:7%;
+			right:6%;
+			padding-top:1%;
+			padding-bottom:1%;
+
+			line-height: 110%;
+			position:absolute;
+			float:right;
+			clear:both;
+			
+
+}
+
+
+
+div#scrubber {
+			width:8px;
+			height:315px;
+			border:5px solid white;
+			margin-top:20px;
+			margin-left:40%;
+
+			
+
+}
+
+
+em#fahrenheit {
+	font-weight:700;
+	font-size:50%;
 }

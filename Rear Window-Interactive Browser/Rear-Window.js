@@ -11,3 +11,13 @@ $("p.body").on("arrived",function(e) {
 $(".iframe-cover").on("arriving",function(e) {
   $(this).addClass("on-page");
 });
+
+
+
+lineColor(white)
+angle(45)
+forward(200)
+angle(180)
+forward(200)
+angle(-67)
+forward(150)
