@@ -1,0 +1,339 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+				
+				
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body { 
+			font-family: Times; font-size:16px; 
+}
+
+
+
+
+.navigation {
+			 
+			 margin-width:auto;
+			 height:150px;
+			 background-color:black;
+
+}
+
+
+#nav-title {
+  			font-size:250%;
+  			font-family: 'Roboto', sans-serif;
+  			font-weight: 900;
+			text-transform: uppercase;
+			letter-spacing: .25em;
+			color:white;
+			float:left;
+			margin-left:3em;
+			margin-top:1.4em;
+			
+}
+
+
+
+
+
+		 
+#top-nav li {		
+			text-align:center;
+			border-style: solid;
+    		border-width: 1px;
+			border-color: white;
+			margin-top:7em;
+			padding-right:2em;
+			padding-left:2em;
+			padding-top:.75em;
+			padding-bottom:.75em;
+			margin-right:1em;
+			margin-left:1em;
+			display:inline;
+			float:right;
+		  	font-size:70%;
+		  	font-family: 'Roboto', sans-serif;
+		  	font-weight: 300;
+			text-transform: uppercase;
+			letter-spacing: .25em;
+			color:white;
+}
+
+#nav-margin {
+			position:relative;
+			right:10em;}		 
+		 
+
+
+
+.navigation a: hover {text-decoration:none;
+	
+			}	
+
+
+	 
+	 
+.navigation a {
+
+						text-decoration:none;
+						color:white;
+		
+		
+			}
+
+
+.navigation a:link {
+						color:white;
+	 
+			}
+	
+	
+	
+.navigation a:hover {
+						color:red;
+						background-color:none;
+	  
+			}
+	 
+	 
+.navigation a:active {
+						color:white;
+	  
+			}			 
+			
+			
+
+
+
+.full-page {
+
+			height: 100vh;
+			position:relative;
+}
+
+
+
+
+
+
+
+
+.page1 {
+			background-image: url("images/lisa.gif");
+			background-repeat: no-repeat;
+			background-size: 100% 120%;
+}
+
+
+
+.page2 {
+			background-color:blue;
+}
+
+
+
+
+p.body {			
+			font-size:100%;
+		  	font-family: 'Roboto Slab', serif;
+		  	font-weight: 300;
+			color:white;
+			line-height:1.8em;
+			letter-spacing: .2em;
+			position:relative;
+			clear:both;
+			border:0px white solid;
+			width:300px;
+			height:100px;
+			padding-top:2%;
+			padding-bottom:1%;
+			padding-left:2%;
+			padding-right:2%;
+			
+			/*TRANSITIONS*/
+  		  	opacity:0;
+  		  	transition:opacity 2s ease;
+			
+}
+
+
+p.body.on-page {
+			opacity:1;
+	
+}
+
+
+
+em#bold {
+			font-weight: 100;
+			text-transform: uppercase;
+			letter-spacing: .3em;
+
+}
+
+
+
+
+
+em#small {
+			font-size:75%;
+			font-weight: 100;
+			letter-spacing: .1em;
+}
+
+
+div#detail {
+			top:7%;
+			left:5%;
+			padding-top:4%;
+			padding-bottom:4%;
+			padding-left:4%;
+			padding-right:4%;
+			line-height: 110%;
+			position:relative;
+			clear:both;
+
+}
+
+
+#suspect-name {
+				text-transform: uppercase;
+			font-size:140%;
+  			font-family: 'Roboto Slab', serif;
+  			font-weight: 700;
+			color:white;
+			line-height:1.8em;
+			letter-spacing: .2em;
+			text-align:center;
+
+}
+
+
+#suspect {
+			position:relative;
+			border:5px solid white;
+			float:right;
+			right:10%;
+			top:30%;
+			clear:both;
+			padding:3%;
+			width:200px;
+
+}
+
+#suspect-button {
+			margin-top:20px;
+			font-size:80%;
+			font-family: 'Roboto Slab', serif;
+			font-weight: 400;
+			color:black;
+			line-height:1.8em;
+			letter-spacing: .2em;
+			text-align:center;
+			background-color:1s ease;
+			background-color:white;
+
+}
+
+
+
+
+a: hover {text-decoration:none;
+	
+}	
+
+
+	 
+	 
+a {
+
+			text-decoration:none;
+			color:black;
+		
+		
+}
+
+
+a:link {
+			color:black;
+	 
+}
+	
+	
+	
+a:hover {
+			color:white;
+			background-color:none;
+	  
+}
+	 
+	 
+a:active {
+			color:black;
+	  
+}			 
+
+
+
+div ::-webkit-scrollbar { 
+    display: none; 
+}
