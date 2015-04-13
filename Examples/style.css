@@ -86,7 +86,7 @@ body { font-family: Times; font-size:16px; }
 }
 
 
-h1 {
+h1.main {
 		  color:white;
 		  position:absolute;
 		  left:50%;
@@ -95,13 +95,14 @@ h1 {
 		  transition:font-size 6s ease;
 		  opacity:0;
 		  transition:opacity 4s ease;
+		  font-size:70%;
 
   
 }
 
 
 h1.on-page {
-			font-size:200px;
+			font-size:100%;
 			opacity:1;
 	
 }
