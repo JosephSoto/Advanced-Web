@@ -1,0 +1,603 @@
+
+
+/*Navigation*/
+
+#top-nav {
+	padding-right:30px;
+}
+		 
+#top-nav li {		
+			text-align:center;
+			border-style: solid;
+    		border-width: 1px;
+			border-color: white;
+			margin-top:25px;
+			padding-right:2em;
+			padding-left:2em;
+			padding-top:10px;
+			padding-bottom:10px;
+			margin-right:1%;
+			margin-left:1%;
+			display:inline;
+			float:right;
+		  	font-size:30%;
+		  	font-family: 'Roboto', sans-serif;
+		  	font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: .25em;
+			color:white;
+}
+
+
+#top-nav li:hover {
+			background-color:#cc3333;
+			opacity:1;
+			transition: .5s ease;
+			
+}
+
+
+div#nav-margin {
+			position:relative;
+			background-color:none;
+			width:100%;
+			height:100px;
+			
+			
+}		 
+		 
+
+
+
+.navigation a: hover {
+			text-decoration:none;
+	
+}	
+
+
+	 
+	 
+.navigation a {
+
+			text-decoration:none;
+			color:white;
+		
+		
+}
+
+
+.navigation a:link {
+			color:white;
+	 
+}
+	
+	
+	
+.navigation a:hover {
+			color:white;
+			background-color:none;
+	  
+}
+	 
+	 
+.navigation a:active {
+			color:white;
+	  
+}		
+
+
+
+/*Homepage*/
+.container-1 {
+				height:100vh;
+				width:100vw;
+				background-color:black;	
+				/*background-image: url("images/static.gif");*/
+				background-repeat:repeat;
+				background-size:contain;
+				background-position:center;
+				background-size: 100%;	
+				position:relative;
+
+}
+
+h1.title {
+
+				text-align:center;
+  				font-size:700%;
+				font-family: 'Roboto Slab', serif;
+  				font-weight: 100;
+				text-transform: uppercase;
+				letter-spacing: .1em;
+				line-height:.90em;
+				color:white;
+	  		  	position:absolute;
+	  		  	left:50%;
+	  		  	top:30%;
+	  		  	transform: translate(-50%, -50%);
+  		  	  	opacity:0;
+  		  		transition:opacity 5s ease;
+	
+}
+
+h1.on-page {
+			opacity:1;
+	
+}
+
+h2.sub-title {
+
+				text-align:center;
+  				font-size:100%;
+				font-family: 'Roboto Slab', serif;
+  				font-weight: 100;
+				text-transform: uppercase;
+				letter-spacing: .25em;
+				line-height:2em;
+				color:white;
+	  		  	position:absolute;
+	  		  	left:50%;
+	  		  	top:60%;
+	  		  	transform: translate(-50%, -50%);
+  		  	  	opacity:0;
+  		  		transition:opacity 4s ease;
+				transition-delay: 1s;
+	
+}
+
+h2.on-page {
+				opacity:1;
+	
+}
+
+button#intro {
+				border:1px solid white;
+				padding:5px 25px 5px 25px;
+				background-color:none;
+				text-align:center;
+  				font-size:100%;
+				font-family: 'Roboto', sans-serif;
+  				font-weight: 300;
+				text-transform: lowercase;
+				letter-spacing: .25em;
+				line-height:2em;
+				color:white;
+	  		  	position:absolute;
+	  		  	left:50%;
+	  		  	top:75%;
+	  		  	transform: translate(-50%, -50%);
+				border-radius:0px;
+}
+
+
+button#intro:hover {
+				background-color:#cc3333;
+				opacity:1;
+				transition: .5s ease;
+				
+}
+
+
+.container-2 {
+				height:400px;
+				width:100vw;
+				background-color:white;
+				position:relative;
+				
+
+}
+
+h3 {
+
+				text-align:center;
+  				font-size:150%;
+				font-family: 'Roboto Slab', serif;
+  				font-weight: 300;
+				text-transform: none;
+				letter-spacing: .15em;
+				line-height:1.5em;
+				color:#cc3333;
+				top:25%;
+				padding-left:20%;
+				padding-right:20%;
+				position:absolute;
+  		  	  	opacity:0;
+  		  		transition:opacity 2s ease;
+	
+}
+
+h3.on-page {
+
+			opacity:1;
+	
+}
+
+.container-3 {
+				height:100vh;
+				width:100vw;
+				background-color:none;
+				position:relative;
+				clear:both;
+
+}
+
+div#container-character {
+				background-color:red;
+				width:33%;
+				height:50%;
+				float:left;
+				/*background-image: url("images/homepage-characters.jpg");*/
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;	
+		
+}
+
+
+
+div#container-time {
+				background-color:orange;
+				width:33%;
+				height:50%;
+				float:left;
+				/*background-image: url("images/homepage-time.jpg");*/
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: 100% auto;	
+		
+}
+
+
+
+div#container-space {
+				background-color:cyan;
+				width:33%;
+				height:50%;
+				float:left;
+				/*background-image: url("images/homepage-space.jpg");*/
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: 100% auto;	
+		
+}
+
+#container-character img {
+  	padding-left:50%;
+	top:50px;
+  	
+
+
+	
+}
+
+h4 {
+
+
+				text-align:center;
+				font-size:200%;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: .3em;
+				line-height:1.5em;
+				color:white;
+	  		  	position:relative;
+	  		  	top:30%;
+				
+
+}
+
+
+
+
+/*Character Synopsis Page*/
+
+.container-4 {
+				height:50vh;
+				width:100vw;
+				background-color:black;	
+				position:relative;
+}
+
+h5#sub-intro {
+				text-align:center;
+				font-size:200%;
+				font-family: 'Roboto slab', serif;
+				font-weight: 100;
+				text-transform: uppercase;
+				letter-spacing: .3em;
+				line-height:1.5em;
+				color:white;
+  				position:relative;
+  				top:30%;
+				
+}
+
+
+.container-5 {
+				height:100vh;
+				width:100vw;
+				background-color:black;	
+				position:relative;
+				
+								
+}
+
+div#container-character-lisa{
+				background-color:black;
+				width:50%;
+				height:35%;
+				float:left;
+				background-image: url("images/characters-lisa.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: 100% auto;	
+
+}
+
+div#container-character-jeff {
+				background-color:black;
+				width:50%;
+				height:65%;
+				float:left;
+				background-image: url("images/characters-jeff.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;	
+}
+
+div#container-character-lars {
+				background-color:black;
+				width:50%;
+				height:25%;
+				float:right;
+				background-image: url("images/characters-lars.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: 100% auto;			
+}
+
+div#container-character-stella {
+				background-color:black;
+				width:50%;
+				height:25%;
+				float:right;
+				background-image: url("images/characters-stella.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: 100% auto;			
+}
+
+div#container-character-minor {
+				background-color:black;
+				width:50%;
+				height:50%;
+				float:right;		
+}
+
+div#container-character-tom {
+				background-color:black;
+				width:33.33%;
+				height:50%;
+				float:left;		
+				background-image: url("images/characters-tom.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;	
+}
+
+div#container-character-emma {
+				background-color:black;
+				width:33.33%;
+				height:50%;
+				float:left;	
+				background-image: url("images/homepage-time.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;		
+}
+
+div#container-character-lonely {
+				background-color:black;
+				width:33.33%;
+				height:50%;	
+				float:left;	
+				background-image: url("images/characters-lonely.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;	
+}
+
+div#container-character-torso {
+				background-color:black;
+				width:33.33%;
+				height:50%;
+				float:left;		
+				background-image: url("images/characters-torso.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;	
+}
+
+div#container-character-fire {
+				background-color:black;
+				width:33.33%;
+				height:50%;
+				float:left;
+				background-image: url("images/characters-fire.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;			
+}
+
+div#container-character-hearing {
+				background-color:black;
+				width:33.33%;
+				height:50%;	
+				float:left;	
+				background-image: url("images/characters-hearing.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: auto 100%;	
+}
+
+.container-6 {
+				height:50vh;
+				width:100vw;
+				background-color:black;	
+				position:relative;
+				
+}
+
+.container-7 {
+				height:100vh;
+				width:100vw;
+				background-color:cyan;	
+				position:relative;
+				
+}
+
+div#container-character-comparison1 {
+				background-color:yellow;
+				width:50%;
+				height:100%;
+				float:left;
+}
+
+div#container-character-comparison2 {
+				background-color:orange;
+				width:50%;
+				height:100%;
+				float:right;
+}
+
+
+/*Media Quaries*/
+
+
+
+@media screen and (max-width: 1245px) {
+	
+div#container-time {
+					background-size: auto 100%;	
+}
+
+div#container-space {
+					background-size: auto 100%;	
+}
+}
+
+
+
+@media screen and (max-width: 1020px) {
+
+
+div#container-character {
+				width:100%;
+				height:33.3%;
+}
+
+div#container-time {
+				width:100%;
+				height:33.3%;
+}
+
+div#container-space {
+				width:100%;
+				height:33.3%;
+}
+
+div#container-character-lisa{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-lars{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-stella{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-jeff{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-tom{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-emma{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-lonely{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-torso{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-fire{
+				width:100%;
+				height:20%;
+				position:absolute;
+}
+
+div#container-character-hearing{
+				width:100%;
+				height:20%;
+				position:absolute;
+				
+}
+
+div#container-character-minor {
+				width:100%;
+				height:100%;
+				display:none;
+				position:absolute;
+}
+
+.container-5 {
+				position:relative;
+}
+
+.container-7 {
+				height:50vh;
+
+}
+
+div#container-space {
+					background-size:100% auto;	
+}
+
+div#container-time {
+					background-size:100% auto;	
+}
+
+div#container-character {
+					background-size:100% auto;	
+}
+
+
+}
+
+
+

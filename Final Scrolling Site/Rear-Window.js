@@ -11,6 +11,18 @@ $("h4").on("arrived",function(e) {
   $(this).addClass("on-page");
 });
 
+$("h5").on("arrived",function(e) {
+  $(this).addClass("on-page");
+});
+
+$("h6").on("arrived",function(e) {
+  $(this).addClass("on-page");
+});
+
+$("h6").on("arrived",function(e) {
+  $(this).addClass("on-page");
+});
+
 
 
 // Add a class of on-page when #container1 arrives
