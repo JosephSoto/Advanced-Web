@@ -1,0 +1,295 @@
+
+body {
+			font-family:Arial;
+			background-color:#f6f6f7;
+}
+
+* { box-sizing:border-box; }
+
+.collection {
+			
+	top:0px
+	left:0px;
+}
+
+div.images {
+			background-color:none;
+			float:left;
+			width: 70%;
+			margin-left:350px;
+			position:absolute;
+			top:32px;
+			padding-right:50px;
+			
+			
+			
+	
+
+}
+
+div.intro {
+			position:fixed;
+			background-color:white;
+			top:25px;
+			left:50px;
+			float:left;
+			z-index:2;
+			width:300px;
+			height:auto;
+			margin-bottom:25px;
+			border: 1px solid black;
+}
+
+h1#title {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			text-align: center;
+			text-transform: uppercase;
+			font-size:100%;
+			padding-top:15%;
+			letter-spacing:.25em;	
+								
+}
+
+
+p#bio {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			text-align: center;
+			text-transform: none;
+			font-size:100%;
+			line-height:2em;
+			padding-top:0px;
+			padding-left:10%;
+			padding-right:10%;
+			padding-bottom:5%;
+			color:#333333;
+	
+	
+}
+
+
+#filter-bar-wrapper {
+			height:20px;
+}
+
+h2#categories {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			text-align: left;
+			text-transform: uppercase;
+			font-size:80%;
+			letter-spacing:.25em;
+			padding-top:10px;
+			padding-left:5%;
+			padding-bottom:10px;
+			color:white;
+			background-color:black;
+			
+	
+}
+
+
+#filter-bar {
+			position:fixed;
+			top:250px;
+			left:50px;
+			float:left;
+			clear:left;
+			width:300px;
+			background-color:white;
+			text-align:center;
+			z-index:2;
+			border:1px solid #cccccc;
+			
+}
+
+input#search {
+			margin-bottom:20px;
+			margin-top:20px;
+			
+
+}
+
+
+input#search:focus {outline:0;}
+
+button {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			text-align: right;
+			text-transform: none;
+			font-size:80%;
+			letter-spacing:.25em;
+			line-height:2em;
+			padding-top:10px;
+			padding-left:0;
+			padding-bottom:10px;
+			color:black;
+			background-color:white;
+			width:100%;
+		    -webkit-transition:background-color 1s;
+		    transition:background-color 1s;
+			border: 0px solid black;
+
+}
+
+span#text {
+			padding-right:5%;
+}
+
+
+button:hover {
+			cursor: pointer;
+			border: 1px solid black;
+}
+
+
+button:active {
+			
+}
+
+
+button:focus {outline:0;}
+
+
+.category {
+  			background-color:white;
+			border-bottom:1px solid #cccccc;
+			
+}
+
+
+.category.selected {
+			background-color:black;
+			color:white;
+}
+
+
+#search  {
+			padding:5px;
+}
+
+
+
+.item {
+			
+			position:relative;
+			list-style-type:none;
+			background-color:white;
+			padding:20px;
+			float:left;
+			cursor:pointer;
+			margin:10px;
+			box-shadow: 0px .5px 1px #cccccc;
+			border:1px solid white;
+
+}
+
+
+.item img { 
+
+			width:150px;
+			height:100%;
+			
+}
+
+
+.item .hoverstate {
+			height:100%;
+			width:100%;
+			position:absolute;
+   			top:0px;
+			left:0px;	
+}
+
+
+
+.item:hover .hoverstate {
+			background-color:rgba(0, 0, 0, 0.1);
+			transition: .3s ease-in;
+				
+	
+}
+
+.item:h2 {color:red;}
+
+
+.red { 
+  			background-color:white;
+}
+
+
+
+.blue { 
+  			background-color: white;
+}
+
+
+.purple {
+  			background-color:white;
+}
+
+
+.item-big { 
+			width: 300px; 
+}
+
+
+.overlay {
+  			position:fixed;
+			height:100%;
+			width:100%;
+			left:0;
+			top:0;
+			background-color:rgba(0,0,0,0.7);
+			z-index: 3;
+			display:none;
+}
+
+h2.name {
+			text-align:center;
+			opacity: 0.0;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			text-transform: uppercase;
+			font-size:80%;
+			letter-spacing:.25em;
+			line-height:2em;
+			padding-top: 75px;
+			display:none;
+
+}
+
+h2.name {
+			opacity: 1;
+			
+}
+
+
+.modal {
+  			left:50%;
+  		  	top:50%;
+  		  	transform: translate(-50%, -50%);
+  		  	position: fixed;
+  		  	background-color:none;
+  		  	padding:10px;
+  		  	box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+			border:1px solid none;
+  		  	z-index:4;
+  		  	display:none;
+  		  	max-height:90%;
+  		  	overflow:auto;
+			
+}
+
+h2.modal {display:none;}
+
+
+.modal img { 
+    		height:80vh;
+
+			
+  
+  		 
+}
